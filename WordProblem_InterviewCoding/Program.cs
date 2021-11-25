@@ -40,6 +40,13 @@ namespace WordProblem_InterviewCoding
             Console.WriteLine(BinomialCoefficients.BinomialCoeffRecursiveMethod(5, 2));
             Console.WriteLine("Binomial Coefficient Dynamic Programming method output");
             Console.WriteLine(BinomialCoefficients.BinomialCoeffDynamicProgrammingMethod(5, 2));
+
+            Console.WriteLine(".................................");
+
+            //Permutation Coefficient
+            Console.WriteLine(PermutationCoeficient.PermutationCoefficientDynamicProgrammmingBasedSolution(10, 2));
+            Console.WriteLine(PermutationCoeficient.PermutationCoeff(10, 2));
+            Console.WriteLine(PermutationCoeficient.PermutationCoeffExtraSpace(10, 2));
         }
     }
 }
