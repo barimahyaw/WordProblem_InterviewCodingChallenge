@@ -1,6 +1,25 @@
 ﻿namespace WordProblem_InterviewCoding
 {
     //Bell Numbers (Number of ways to Partition a set)
+
+    /*
+     * EXAMPLE 1
+       Input:  n = 2
+       Output: Number of ways = 2
+       Explanation: Let the set be {1, 2}
+                    { {1}, {2} } 
+                    { {1, 2} } 
+
+     * EXAMPLE 2
+     Input:  n = 3
+     Output: Number of ways = 5
+     Explanation: Let the set be {1, 2, 3}
+                        { {1}, {2}, {3} }
+                        { {1}, {2, 3} }
+                        { {2}, {1, 3} }
+                        { {3}, {1, 2} }
+                        { {1, 2, 3} }. 
+     */
     public static class BellNumbers
     {
         //Function to find n'th Bell Number
