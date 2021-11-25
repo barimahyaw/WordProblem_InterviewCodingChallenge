@@ -17,6 +17,10 @@ namespace WordProblem_InterviewCoding
                 Console.WriteLine(CatalanNumber.Calalan(i));
 
             Console.WriteLine(".................................");
+
+            //n'th bell number
+            for (int n = 0; n < 5; n++)
+                Console.WriteLine($"Bell Number of {n} is {BellNumbers.BellNumber(n)}");
         }
     }
 }
