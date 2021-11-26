@@ -52,6 +52,12 @@ namespace WordProblem_InterviewCoding
 
             //Tilling Problem
             Console.WriteLine(TilingProblem.GetNumberOfWays(4));
+
+            Console.WriteLine(".................................");
+
+            // Base Ball Game score
+            string[] input = new string[] { "5", "2", "C", "D", "+" };
+            Console.WriteLine(BaseBallGame.StackSolution(input));
         }
     }
 }
