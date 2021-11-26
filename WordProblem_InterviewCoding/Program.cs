@@ -47,6 +47,11 @@ namespace WordProblem_InterviewCoding
             Console.WriteLine(PermutationCoeficient.PermutationCoefficientDynamicProgrammmingBasedSolution(10, 2));
             Console.WriteLine(PermutationCoeficient.PermutationCoeff(10, 2));
             Console.WriteLine(PermutationCoeficient.PermutationCoeffExtraSpace(10, 2));
+
+            Console.WriteLine(".................................");
+
+            //Tilling Problem
+            Console.WriteLine(TilingProblem.GetNumberOfWays(4));
         }
     }
 }
