@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WordProblem_InterviewCoding
+﻿namespace WordProblem_InterviewCoding
 {
     public class TilingProblem
     {
@@ -13,14 +7,8 @@ namespace WordProblem_InterviewCoding
         public static int GetNumberOfWays(int n)
         {
             // Base Case
-            if (n == 0)
-            {
-                return 0;
-            }
-            if (n == 1)
-            {
-                return 1;
-            }
+            if (n == 0) return 0;
+            if (n == 1) return 1;
 
             return GetNumberOfWays(n - 1) + GetNumberOfWays(n - 2);
         }
