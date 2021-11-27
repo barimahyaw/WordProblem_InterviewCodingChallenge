@@ -55,13 +55,17 @@ namespace WordProblem_InterviewCoding
 
             Console.WriteLine(".................................");
 
-            // Base Ball Game score
+            //Base Ball Game score
             string[] input = new string[] { "5", "2", "C", "D", "+" };
             Console.WriteLine(BaseBallGame.StackSolution(input));
 
             Console.WriteLine(".................................");
 
             Console.WriteLine(K_th_Character_of_Decrypted_String.EncodedChar("ab4c12ed3", 21));
+
+            Console.WriteLine(".................................");
+
+            Console.WriteLine(ValiditityOfInputString.IsValid("{}"));
         }
     }
 }
