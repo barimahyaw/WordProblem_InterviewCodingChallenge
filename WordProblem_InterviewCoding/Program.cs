@@ -70,6 +70,10 @@ namespace WordProblem_InterviewCoding
             Console.WriteLine(".................................");
 
             ArrayRightRotation.PrintArray();
+
+            Console.WriteLine(".................................");
+
+            ArrayLeftRotation.PrintArray();
         }
     }
 }
