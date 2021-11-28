@@ -66,6 +66,10 @@ namespace WordProblem_InterviewCoding
             Console.WriteLine(".................................");
 
             Console.WriteLine(ValiditityOfInputString.IsValid("{}"));
+
+            Console.WriteLine(".................................");
+
+            ArrayRightRotation.PrintArray();
         }
     }
 }
