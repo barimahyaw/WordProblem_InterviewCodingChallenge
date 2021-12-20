@@ -3,7 +3,8 @@
 - .NET 5
 - Microservices
 - ASP.NET Core
-- Entity Framework Cor
+- Entity Framework Core
+- C#
 
 ## How to get started
 1. Install the latest [.NET 5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
